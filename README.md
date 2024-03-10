@@ -27,14 +27,22 @@ To install BlurIT, follow these steps or download release:
 1. Clone the repository:
 ```bash
 git clone https://github.com/I0re/BlurIT.git
+```
+```bash
 cd BlurIT
 ```
 
-2. Build the application:
+2. Build the application (Outside of Qt Creator/ still need Qt installed):
 ```bash
 mkdir build
+```
+```bash
 cd build
+```
+```bash
 cmake ..
+```
+```bash
 make
 ```
 
@@ -42,6 +50,9 @@ make
 ```bash
 ./BlurIT
 ```
+4. If building from source:
+- Run windeployqt6.exe on the output executable file.
+- Place "opencv_videoio_ffmpeg490_64.dll", "opencv_world490.dll", "opencv_world490.lib" and "opencv_world490.pdb" in the same directory as output executable file.
 
 ## Usage
 
@@ -57,6 +68,8 @@ To use BlurIT, follow these steps:
 BlurIT also provides Docker support for easy deployment on Unbuntu Linux:
 ```bash
 docker build --build-arg OS_TYPE=Linux -t blurit .
+```
+```bash
 docker run -it blurit
 ```
 
