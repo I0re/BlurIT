@@ -27,14 +27,20 @@ To install BlurIT, follow these steps or download release:
 1. Clone the repository:
 ```bash
 git clone https://github.com/I0re/BlurIT.git
+```
+```bash
 cd BlurIT
 ```
 
 2. Build the application:
 ```bash
 mkdir build
+```
 cd build
+```bash
 cmake ..
+```
+```bash
 make
 ```
 
@@ -60,6 +66,8 @@ To use BlurIT, follow these steps:
 BlurIT also provides Docker support for easy deployment on Unbuntu Linux:
 ```bash
 docker build --build-arg OS_TYPE=Linux -t blurit .
+```
+```bash
 docker run -it blurit
 ```
 
