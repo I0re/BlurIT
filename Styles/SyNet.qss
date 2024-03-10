@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SO
 /*-----QWidget-----*/
 QWidget
 {
-	background-color: #1C1B23; /* Updated background color for the application */
+        background-color: #1C1B23; /* Updated background color for the application */
     color: #F4FAFF; /* Updated text color for labels */
 }
 

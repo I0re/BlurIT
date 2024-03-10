@@ -17,6 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    setWindowTitle("BlurIT");
+
     // Order of what happens when "Upload" button is pressed
     connect(ui->Upload, &QPushButton::clicked, this, &MainWindow::selectVideo);
 
