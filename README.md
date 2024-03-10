@@ -46,9 +46,11 @@ cmake -G "Visual Studio 17 2022" ..
 
 3. Build the output .sln file in either debug or release versions.
 
-5. If building from source in the directory of output exe file:
+4. If building from source in the directory of output exe file:
 - Run windeployqt6.exe on the output executable file.
 - Place "opencv_videoio_ffmpeg490_64.dll", "opencv_world490.dll", "opencv_world490.lib" and "opencv_world490.pdb" in the same directory as output executable file.
+
+5. This will create a new folder called "Release" or "Debug," depending on what you build. The application will not run because the two necessary files needed to run smoothly are still in the directory before where the executable was built. Add the two files "res10_300x300_ssd_iter_140000.caffemodel" and "deploy.prototxt.txt" to the folder where the executable was built, and it should run smoothly as intended.
 
 ## Usage
 
