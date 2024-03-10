@@ -19,6 +19,9 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Without this line, cmake does not find the package (building without Qt Creator)
+set(CMAKE_PREFIX_PATH "C:/Qt/6.6.1/msvc2019_64")
+
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Multimedia MultimediaWidgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Multimedia Widgets MultimediaWidgets)
 
