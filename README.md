@@ -42,6 +42,9 @@ make
 ```bash
 ./BlurIT
 ```
+4. If building from source:
+- Run windeployqt6.exe on the output executable file.
+- Place "opencv_videoio_ffmpeg490_64.dll", "opencv_world490.dll", "opencv_world490.lib" and "opencv_world490.pdb" in the same directory as output executable file.
 
 ## Usage
 
