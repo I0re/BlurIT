@@ -36,7 +36,9 @@ cd BlurIT
 ```bash
 mkdir build
 ```
+```bash
 cd build
+```
 ```bash
 cmake ..
 ```
