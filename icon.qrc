@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Assets">
+        <file>Assets/logo.ico</file>
+        <file>Assets/logo.png</file>
+        <file>Assets/close.svg</file>
+        <file>Assets/Expand.svg</file>
+        <file>Assets/Minimize.svg</file>
+        <file>Assets/logo.icns</file>
+        <file>Assets/Shrink.svg</file>
+        <file>Assets/res10_300x300_ssd_iter_140000.caffemodel</file>
+        <file>Assets/deploy.prototxt.txt</file>
+        <file>Styles/SyNet.qss</file>
+    </qresource>
+</RCC>
