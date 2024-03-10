@@ -40,17 +40,12 @@ mkdir build
 cd build
 ```
 ```bash
-cmake ..
-```
-```bash
-make
+cmake -G "Visual Studio 17 2022" ..
 ```
 
-3. Run the application:
-```bash
-./BlurIT
-```
-4. If building from source:
+3. Build the output .sln file in either debug or release versions.
+
+5. If building from source in the directory of output exe file:
 - Run windeployqt6.exe on the output executable file.
 - Place "opencv_videoio_ffmpeg490_64.dll", "opencv_world490.dll", "opencv_world490.lib" and "opencv_world490.pdb" in the same directory as output executable file.
 
