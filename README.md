@@ -32,7 +32,7 @@ git clone https://github.com/I0re/BlurIT.git
 cd BlurIT
 ```
 
-2. Build the application:
+2. Build the application (Outside of Qt Creator/ still need Qt installed):
 ```bash
 mkdir build
 ```
