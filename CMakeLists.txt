@@ -67,6 +67,11 @@ set(PROJECT_SOURCES
     mainwindow.ui
 )
 
+# Modify the build process to include the icon file
+if(WIN32)
+    set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_CURRENT_SOURCE_DIR}/icon1.rc")
+endif()
+
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     # Use qt_add_executable for Qt 6
     qt_add_executable(${APP_TARGET}
@@ -75,6 +80,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         icon.qrc
         facedetector.h facedetector.cpp
+        icon1.rc
+        ${APP_ICON_RESOURCE_WINDOWS}
     )
 
 else()
