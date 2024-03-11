@@ -10,7 +10,7 @@ BlurIT is a video processing application developed in C++ and Qt, primarily desi
 - **User Interface**: Provides a user-friendly interface for uploading videos, processing, and downloading the processed video.
 
 ## Demo
-[![Watch the Demo video]](https://www.youtube.com/watch?v=1DD9Sej4jyQ)
+https://www.youtube.com/watch?v=1DD9Sej4jyQ
 
 
 ## Prerequisites
